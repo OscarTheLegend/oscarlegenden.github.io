@@ -1,0 +1,200 @@
+
+p{
+    font-size: 150%;
+    
+}
+
+
+body{
+    background-color: #AA5585;
+    font-family: Verdana, Arial, san-serif;
+    font-size:90%;
+    margin: 1% 10% 0 10%; 
+}
+
+h1{
+    font-size:160%;
+    color:#440026;
+}
+h2{
+    font-size:160%;
+    color:#440026;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+
+}
+
+header{
+    text-align:center;
+}
+
+div#tabell {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div#tabellRad {
+    display: table-row;
+
+}
+
+section#vanster {
+    display: table-cell;
+    padding: 15px;
+    text-align : justify;
+    width: 20%;
+}
+
+
+
+section#hoger {
+    display: table-cell;
+    padding: 15px;	
+    text-align : justify;
+    width: 20%;
+}
+
+section.form {
+    display: table-cell;
+    padding: 15px;	
+    text-align : left;
+    width: 20%;
+}
+
+
+
+section#vanster img, section#hoger img {
+    float: left;
+    margin: 0 10px 5px 0;
+}	
+
+nav{
+    text-align:center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    background-color:#440026;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li.selected {
+    background-color:#AA5585;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+nav ul li a:link, nav ul li a:visited {
+    color:#CD88AF;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    text-decoration:  none;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+a:link, a:visited {
+    color:black;
+    text-decoration:  none;
+}
+
+a:hover {
+    color:#661141;
+    text-decoration:  underline;
+}
+
+
+
+@media only screen and (min-width : 150px) and (max-width : 780px){
+
+    nav{
+        text-align:center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    nav ul{
+        list-style-type: none;
+    }
+
+ 
+
+
+    section#vanster img, section#mitt img, section#hoger img {
+        float: left;
+        margin: 0 10px 5px 0;
+    }
+
+    div#tabell {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    div#tabellRad {
+        display: block;
+
+    }
+
+    section#vanster {
+        display: block;
+        padding: 15px;
+        text-align : justify;
+        width: 100%;
+    }
+
+    section#mitt {
+        display: block;
+        padding: 15px;
+        text-align : justify;
+        width: 100%;
+    }
+
+    section#hoger {
+        display: block;
+        padding: 15px;	
+        text-align : justify;
+        width: 100%;
+    }
+
+    section.form {
+        display: block;
+        padding: 15px;	
+        text-align : left;
+        width: 100%;
+    }
+
+    #slider{
+        width: 100%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+
+
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boka</title>
+<link rel="stylesheet" type="text/css" href="mall.css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+        <script>
+            $( function() {
+            $( "#datepicker" ).datepicker();
+            } );
+        </script>
+        
+        <script>
+            $( function() {
+            $( "#Datepicker" ).datepicker();
+            } );
+        </script>
+        	
+</head>
+	<body>
+		<header>
+			<img src="images/bordochstolar.jpg" alt="Bord och stolar">
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Start</a></li>
+				<li class="selected"><a href="sida3.html">Boka</a></li>
+				<li><a href="sida4.html">Hitta</a></li>
+				<li><a href="sida2.html">Kontakta</a></li>
+			</ul>
+		</nav>
+		
+		<div id="tabell">
+			<div id="tabellRad">
+			
+			<section class="form">
+			<form action="MAILTO:hej@hej.se" method="post" enctype="text/plain">
+		<h1>Boka hotellrum</h1>
+		Namn:<br />
+		<input type="text" name="name"/> <br />
+		Personnummer:<br />
+		<input type="text" name="personnummer"/> <br />
+		Telefonnummer:<br />
+		<input type="text" name="phone"/> <br />
+		Epostadress:<br />
+		<input type="text" name="email"/> <br />
+
+			Antal rum:
+			<select name="rooms">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			</select>
+			<br />
+		Personer per rum:
+			<select name="persons">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			</select>
+                <div class="form-group">
+                        <label class="control-label col-sm-4" for="cal">Incheckning</label>
+                        <div class="col-sm-6">          
+                            <input type="text" id="datepicker">
+                        </div>
+                    </div>
+                
+                    <div class="form-group">
+                        <label class="control-label col-sm-4" for="cal">Utcheckning</label>
+                        <div class="col-sm-6">          
+                            <input type="text" id="Datepicker">
+                        </div>
+                    </div>
+		
+		<br /><br />
+		<input type="submit" value="Boka rum" />
+		
+		</form>
+			</section>
+		
+			<section class="form">
+					<form action=none method="post" enctype="text/plain">
+		<h1>Boka konferenslokal</h1>
+		Företagsnamn:<br />
+		<input type="text" name="name"/> <br />
+		Namn på bokande:<br />
+		<input type="text" name="personnummer"/> <br />
+		Telefonnummer:<br />
+		<input type="text" name="organisation"/> <br />
+		Epostadress:<br />
+		<input type="text" name="email"/> <br />
+		
+		
+		Antal timmar:
+		<select name="hours">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select>
+		<br />
+	Från klockan: 
+		<select name="from">
+		<option value="07">07:00</option>
+		<option value="08">08:00</option>
+		<option value="09">09:00</option>
+		<option value="10">10:00</option>
+		<option value="11">11:00</option>
+		<option value="12">12:00</option>
+		<option value="13">13:00</option>
+		<option value="14">14:00</option>
+		<option value="15">15:00</option>
+		<option value="16">16:00</option>
+		<option value="17">17:00</option>
+		<option value="18">18:00</option>
+		<option value="19">19:00</option>
+		</select>
+		<br />
+		Välj antal personer: 
+		<select name="size">
+		<option value="5">Max 5 personer</option>
+		<option value="10">Max 10 personer</option>
+		<option value="20">Max 20 personer</option>
+		<option value="30">Max 30 personer</option>
+		<option value="40">Max 40 personer</option>
+		<option value="60">Max 50 personer</option>
+		</select>
+	
+	<br /><br />
+	<input type="submit" value="Boka lokal" />
+	<input type="reset" value="Radera" />
+	</form></section>
+			
+			</div>
+		</div>
+		
+		<footer>
+			<p>Kungsgatan 88, 237 89 Malmö</p>
+		</footer>
+	
+	</body>
+</html>
