@@ -141,22 +141,14 @@ a:hover {
  
 
 
-    section#vanster img, section#mitt img, section#hoger img {
+    section#vanster img, section#hoger img {
         float: left;
         margin: 0 10px 5px 0;
     }
 
-    div#tabell {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+   
 
-    }
-
-    div#tabellRad {
-        display: block;
-
-    }
+   
 
     section#vanster {
         display: block;
@@ -165,12 +157,7 @@ a:hover {
         width: 100%;
     }
 
-    section#mitt {
-        display: block;
-        padding: 15px;
-        text-align : justify;
-        width: 100%;
-    }
+    
 
     section#hoger {
         display: block;
